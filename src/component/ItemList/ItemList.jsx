@@ -20,7 +20,7 @@ class ItemList extends Component {
   }
 
   handleClickEdit = event => {
-    this.setState({ editing: event.target.name });
+    this.setState({ editing: event.target.id });
   }
 
   handleClickCancelEdit = event => {
@@ -32,7 +32,6 @@ class ItemList extends Component {
   }
 
   handleClickSaveItem = (name, description, available, price, key) => {
-    let data = this.props.data;
     this.props.dispatch({ type: 'EDIT_ITEM', name, description, available, price, key });
     this.setState({ editing: null });
   }
@@ -43,7 +42,7 @@ class ItemList extends Component {
         <h3>{item.name}</h3>
         <p><em>{item.description}</em></p>
         <p>Available: {item.available} | Price: {item.price}</p>
-        <button onClick={this.handleClickEdit} name={item.key}>Edit</button>
+        <button onClick={this.handleClickEdit} id={item.key}>Edit</button>
       </React.Fragment>
     );
   }
@@ -66,8 +65,8 @@ class ItemList extends Component {
               item.key
             )
           }} name={item.key}>Save</button>
-          <button onClick={this.handleClickDeleteItem} name={item.key}>Delete Item</button>
-          <button onClick={this.handleClickCancelEdit} name={item.key}>Cancel</button>
+          <button onClick={this.handleClickDeleteItem} id={item.key}>Delete Item</button>
+          <button onClick={this.handleClickCancelEdit} id={item.key}>Cancel</button>
         </div>
       </React.Fragment>
     )
