@@ -1,13 +1,13 @@
 export default (state = [], action) => {
-  const { type, id, name, description, available, price } = action;
+  const { type, key, name, description, available, price } = action;
 
   switch (type) {
     case 'ADD_ITEM':
-      return [{ id, name, description, available, price }, ...state];
+      return [{ key, name, description, available, price }, ...state];
     case 'DELETE_ITEM':
-      return state.filter(item => item.id !== id);
+      return state.filter(item => item.key !== key);
     case 'EDIT_ITEM':
-      return state.map(item => item.id === id ? { id, name, description, available, price } : item);
+      return state.map(item => item.key === key ? { key, name, description, available, price } : item);
     default:
       return state;
   }
