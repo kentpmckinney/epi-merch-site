@@ -1,6 +1,6 @@
 <!-- Category: Epicodus;React;HTML/CSS/JS -->
 
-# Bird Sounds Quiz
+# Merchandise Site
 https://github.com/kentpmckinney/epi-merch-site
 
 ##### Author: Kent McKinney - [GitHub](https://github.com/kentpmckinney) and Winter Runion
