@@ -1,0 +1,1 @@
+{"version":3,"sources":["Item.css"],"names":[],"mappings":"AAAA,MACE,qBAAsB,CACtB,kBAAmB,CACnB,YAAa,CACb,WACF","file":"main.99df0c12.chunk.css","sourcesContent":[".Item {\n  border: 1px solid gray;\n  border-radius: 10px;\n  padding: 15px;\n  margin: 10px;\n}"]}
