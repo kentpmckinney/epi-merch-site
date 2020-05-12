@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/epi-merch-site/precache-manifest.0c2333ed1dd182257c7071b1623bc685.js"
+  "/epi-merch-site/precache-manifest.5cfab5b1025f7a5b9097872c798d937b.js"
 );
 
 self.addEventListener('message', (event) => {
