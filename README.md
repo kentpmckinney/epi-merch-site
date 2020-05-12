@@ -38,15 +38,15 @@ Git (optional but recommended)
 
 ## Running Automated Tests
 
-how to run the automated tests
+tests are located in /src/__tests__
 
 ```
-example
+Run the command 'npm run test'
 ```
 
 ## Deployment
 
-
+Run the command 'npm run build' to build a production version of the application in './build'
 
 ## Technologies Used
 
@@ -62,7 +62,8 @@ example
 Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
 Winter Runion
 
-### Copyright &copy; 2020 Kent P. McKinney
+### Copyright &copy; 2020 Kent P. McKinney and Winter Runion
 
 ## Acknowledgments
 
+https://www.learnhowtoprogram.com/react-part-time-react-track/react-fundamentals-part-3/help-queue-merch-site-event-logger-two-day-project

@@ -17,10 +17,8 @@ describe('reducer tests', () => {
 
   test('edit an item', () => {
     let state = [{ name: 'Black Shirt', description: 'a very basic black T', available: 500, price: 5.99, key: 1 }];
-    console.log(state)
     const action = { type: 'EDIT_ITEM', key: 1, name: 'Black Shirt  2', description: 'a very basic black T 2', available: 90, price: 4.99 }
     state = reducer(state, action);
-    console.log(state)
     expect(state).toEqual([{ key: 1, name: 'Black Shirt  2', description: 'a very basic black T 2', available: 90, price: 4.99 }]);
   });
 
