@@ -38,7 +38,7 @@ Git (optional but recommended)
 
 ## Running Automated Tests
 
-tests are located in /src/__tests__
+tests are located in ``__tests__``
 
 ```
 Run the command 'npm run test'
